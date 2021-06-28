@@ -1,3 +1,3 @@
-from os import exec
+from os import system
 
-exec('sh setup.sh && streamlit run app.py')
+system('sh setup.sh && streamlit run app.py')
